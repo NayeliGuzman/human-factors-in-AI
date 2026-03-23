@@ -7,6 +7,7 @@ Generate paper reviews using popular LLMs and compare them with the official pap
 ## Project Overview
 
 **View the presentation:** [presentation.pdf](presentation.pdf)
+
 **Explore the analysis notebook:** [analysis.ipynb](notebooks/analysis.ipynb)
 
 ## Environment
@@ -17,9 +18,9 @@ Generate paper reviews using popular LLMs and compare them with the official pap
 See 'requirements.txt' for full dependencies 
 
 Install dependencies:
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
 ## Workflow
 

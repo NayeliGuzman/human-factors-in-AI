@@ -6,7 +6,7 @@ Generate paper reviews using popular LLMs and compare them with the official pap
 
 ## Project Overview
 
-**View the presentation:** [presentation.pdf]
+**View the presentation:** [presentation.pdf](presentation.pdf)
 **Explore the analysis notebook:** [analysis.ipynb](notebooks/analysis.ipynb)
 
 ## Environment
@@ -31,15 +31,15 @@ The dataset was compiled by aggregating model-generated outputs into a structure
 
 [preprocessing_data.ipynb](notebooks/preprocessing_data.ipynb)
 
-This notebook is for the data annotation, feature creation, data cleaning and pre-processing step used to generate the data. Note: Does not need to be run to use or explore the analysis notebook. Data is stored in 'LLM output data/'  
+This notebook is for the data annotation, feature creation, data cleaning and pre-processing step used to generate the data. Note: Does not need to be run to use or explore the analysis notebook. Data is stored in 'LLM output data'
 
 ### 2. Analysis
 
 Main analysis is performed in [analysis.ipynb](notebooks/analysis.ipynb) 
 
-
-
-
+This notebook uses data strored in the following folders:
+- 'data/' - contains human reviewer data used in the analysis
+- 'LLM output data/' - contains model generated outputs 
 
 
 
